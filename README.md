@@ -8,6 +8,8 @@ There are three models to solve the Task : 5 class classification with ECG signa
 2. 1-D CNN + LSTM 
 3. 1-D CNN + LSTM + Attention 
 
+![models](https://user-images.githubusercontent.com/35910868/167565429-0dc9c62c-814d-42a7-955d-46669b566f69.png)
+
 The details of all models with data flow are shown in ./figs.
 
 Class
@@ -17,6 +19,8 @@ Class
 2: "Premature ventricular contraction"
 3: "Fusion of ventricular and normal"
 4: "Fusion of paced and normal"
+
+![signals_per_class_5](https://user-images.githubusercontent.com/35910868/167565755-f22289b8-48dc-46cb-ad67-df9deb138122.png)
 
 
 ## Envs
